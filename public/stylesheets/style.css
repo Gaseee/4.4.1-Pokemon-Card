@@ -3,6 +3,133 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+.pokemonCard {
+  display: flex;
+}
+
+.card {
+  width: 300px;
+  background-color: lightyellow;
+  height: 450px;
+  border: 7px solid yellow;
+  border-radius: 8px;
+  margin: 16px;
+  flex-direction: column;
+}
+
+.heading {
+  display: flex;
+  align-items: stretch;
+}
+
+.name {
+  order: 1;
+  flex: 1;
+}
+
+.health {
+  order: 2;
+  flex:1;
+}
+
+.type {
+  order: 3;
+  flex: 1;
+  width: 25px;
+  height: 25px;
+}
+
+.pokemonPicture {
+  width: 225px;
+  height: 225px;
+  border: 7px solid yellow;
+  border-radius: 8px;
+  position: relative;
+}
+
+.description1 {
+  display: flex;
+  align-items: stretch;
+}
+
+.energy1 {
+  width: 25px;
+  height: 25px;
+  order: 1;
+  flex: 1;
+}
+
+.move1 {
+  order: 2;
+  flex:1;
+}
+
+.number1 {
+  order: 3;
+  flex: 1;
+}
+
+.description2 {
+  display: flex;
+  align-items: stretch;
+}
+
+.energy2 {
+  width: 25px;
+  height: 25px;
+  order: 1;
+  flex: 1;
+}
+
+.move2 {
+  order: 2;
+  flex:1;
+}
+
+.number2 {
+  order: 3;
+  flex: 1;
+}
+
+.otherInfo {
+  display: flex;
+  align-items: stretch;
+}
+
+.weakness {
+  order: 1;
+  flex: 1;
+}
+
+.resistance {
+  order: 2;
+  flex:1;
+}
+
+.retreatCost {
+  order: 3;
+  flex:1;
+}
+
+.otherInfoImg {
+  display: flex;
+  align-items: stretch;
+}
+.weaknessImg {
+  width: 25px;
+  height: 25px;
+  order: 1;
+  flex: 1;
+}
+.resistanceImg {
+  width: 25px;
+  height: 25px;
+  order: 2;
+  flex:1;
+}
+.retreatCostImg {
+  width: 25px;
+  height: 25px;
+  order: 3;
+  flex: 0.5;
 }

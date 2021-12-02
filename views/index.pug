@@ -1,21 +1,31 @@
 extends layout
 
 block content
-  div.card
-    div.upper
-      div.name
-      div.health
-      div.type
-    div.picture
-    div.box1
-      div.energy1
-      div.move1
-      div.number1
-    div.box2
-      div.energy2
-      div.move2
-      div.number2
-    div.bottom
-      div.weakness
-      div.resistance
-      div.retreatCost
+  div.pokemonCard
+    div.card
+      div.heading
+          p.name Pikachu
+          p.health 50 HP
+          img.type(src='http://pm1.narvii.com/5867/6c6a05dde0693c1dfe454912c83109f165f3f7ab_00.jpg')
+
+      img.pokemonPicture(src='https://cdn.ndtv.com/tech/images/gadgets/pikachu_hi_pokemon.jpg')
+
+      div.description1
+        img.energy1(src='http://pm1.narvii.com/5867/6c6a05dde0693c1dfe454912c83109f165f3f7ab_00.jpg')
+        div.move1 Gnaw
+        div.number1 10
+
+      div.description2
+        img.energy2(src='http://pm1.narvii.com/5867/6c6a05dde0693c1dfe454912c83109f165f3f7ab_00.jpg')
+        div.move2 Lightning Bolt
+        div.number2 50
+
+      div.otherInfo
+        p.weakness weakness
+        p.resistance resistance
+        p.retreatCost retreat cost
+
+      div.otherInfoImg
+        img.weaknessImg(src='http://pm1.narvii.com/5867/6c6a05dde0693c1dfe454912c83109f165f3f7ab_00.jpg')
+        img.resistanceImg(src='http://pm1.narvii.com/5867/6c6a05dde0693c1dfe454912c83109f165f3f7ab_00.jpg')
+        img.retreatCostImg(src='http://pm1.narvii.com/5867/6c6a05dde0693c1dfe454912c83109f165f3f7ab_00.jpg')
