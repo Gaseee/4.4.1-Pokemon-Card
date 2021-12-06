@@ -134,7 +134,7 @@ body {
 
 .otherInfoImg {
   display: flex;
-  align-items: stretch;
+  justify-content:space-around;
 }
 .weaknessImg {
   width: 25px;
@@ -152,7 +152,7 @@ body {
   width: 25px;
   height: 25px;
   order: 3;
-  flex: 0.5;
+  flex: 1;
 }
 .retreatCostImg2 {
   width: 25px;
