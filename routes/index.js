@@ -3,8 +3,6 @@ var router = express.Router();
 const pokemoncardController = require('../controllers/pokemoncardController');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+router.get('/', pokemoncardController.viewAll);
 
 module.exports = router;
