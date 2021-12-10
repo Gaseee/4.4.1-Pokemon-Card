@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   };
   pokemonCard.init({
-    name: DataTypes.STRING.,
+    name: DataTypes.STRING,
     health: DataTypes.STRING,
     type:  DataTypes.STRING,
     pokemonPicture:  DataTypes.STRING,
@@ -30,7 +30,7 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'pokemonCard',
-    tableName: 'pokemonCards',
+    tableName: 'pokemoncards',
     timestamps:false
   });
   return pokemonCard;
