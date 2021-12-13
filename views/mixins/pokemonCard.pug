@@ -1,6 +1,8 @@
 mixin pokemonCard(pokemoncard)
 
     div.card
+        div.edit
+            a(href=`/edit/${pokemoncard.id}`) Edit
         div.heading
             p.name=pokemoncard.name
             p.health=pokemoncard.health
