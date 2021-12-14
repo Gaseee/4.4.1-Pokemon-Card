@@ -6,7 +6,7 @@ module.exports.viewAll = async function(req, res, next) {
 };
 
 module.exports.renderEditForm = async function(req, res, next) {
-    const pokemoncard = await pokemonCard.findByPK(
+    const pokemoncard = await pokemonCard.findByPk(
         req.params.id
     );
     res.render('edit', {pokemoncard});
