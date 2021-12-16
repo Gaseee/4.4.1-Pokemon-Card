@@ -8,6 +8,6 @@ router.get('/edit/:id', pokemoncardController.renderEditForm);
 router.post('/edit/:id', pokemoncardController.updatePokemonCard);
 router.get('/delete/:id', pokemoncardController.deletePokemonCard);
 router.get('/add', pokemoncardController.renderAddForm);
-
+router.post('/add', pokemoncardController.addPokemonCard);
 
 module.exports = router;
